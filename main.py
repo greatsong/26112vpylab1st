@@ -8,7 +8,7 @@ scene.ambient = vector(0.77, 0.13, 0.13) # 흰 건반이 밝게 보이도록 환
 
 # 악기: (이름, 소리 종류, 조명 색)
 instruments = [
-    ('피아노', 'piano', color.cyan),
+    ('멋진 피아노', 'piano', color.cyan),
     ('오르골', 'musicbox', color.magenta),
     ('플루트', 'sine', vector(0.4, 1, 0.6)),
     ('8비트', 'square', color.yellow),
