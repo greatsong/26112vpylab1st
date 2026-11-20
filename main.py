@@ -4,7 +4,7 @@ from vpython import *
 scene.background = vector(0.03, 0.03, 0.07)
 scene.center = vector(0, 0.4, 0)
 scene.range = 5.4
-scene.ambient = color.gray(0.9)  # 흰 건반이 밝게 보이도록 환경광을 올립니다
+scene.ambient = vector(197, 33, 33)(0.9)  # 흰 건반이 밝게 보이도록 환경광을 올립니다
 
 # 악기: (이름, 소리 종류, 조명 색)
 instruments = [
